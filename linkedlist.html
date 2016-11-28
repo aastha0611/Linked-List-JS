@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>LinkedList in JavaScript</title>
+	<script src="ll.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
+</head>
+<body>
+	<section class="singly_ll">
+		<h1>Singly Linked List</h1>
+		<input type="radio" name="selectoption" onclick="showTextBox(this.value)" value="1"><label id="1">Insert a node at the head of the linked list</label></br>
+		<input type="radio" name="selectoption" onclick="showTextBox(this.value)" value="2"><label id="2">Insert a node at the tail of the linked list</label></br>
+		<input type="radio" name="selectoption" onclick="showTextBox(this.value)" value="3"><label id="3">Delete the first node</label></br>
+		<input type="radio" name="selectoption" onclick="showTextBox(this.value)" value="4"><label id="4">Delete the last node</label></br>
+		<input type="text" id="list" style="display:none">
+		<input type="button" onclick="execute()" value="Go!">
+	</section>
+	<div id="result">
+	</div>
+</body>
+</html>
