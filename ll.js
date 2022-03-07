@@ -13,7 +13,7 @@ SinglyLinkedList.prototype.addLast = function(value) {
         var node = new Node(value),
         currentNode = this.head;
  
-    // 1st use-case: an empty list
+    // 1st use-case: an empty list    
     if (!currentNode) {
         this.head = node;
         this._length++;
